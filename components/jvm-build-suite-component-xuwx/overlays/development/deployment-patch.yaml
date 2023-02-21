@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-xuwx
+  namespace: jvm-build-jnxz-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:0bc7b19df8b1706d26f41ec92f3e829974b031886bed07d821bfac954a6eee75
+        name: container-image
+        resources: {}
+status: {}
