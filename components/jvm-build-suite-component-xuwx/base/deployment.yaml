@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-xuwx
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:7cb806dd02bd4c22933fabc2126096f7
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:0bc7b19df8b1706d26f41ec92f3e829974b031886bed07d821bfac954a6eee75
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
